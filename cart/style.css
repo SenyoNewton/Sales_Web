@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #0056a6;
+    text-align: center;
+}
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.cart-table th {
+    background-color: #f4f4f4;
+}
+.total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+.checkout-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0056a6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.checkout-button:hover {
+    background-color: #003f7d;
+}
